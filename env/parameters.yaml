@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:capforest/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:capforest/pipelineUser:token
+  username: cb-cloud-native-ci-cd-play[bot]
+prow:
+  hmacToken: vault:capforest/prow:hmacToken
+segmentWriteKey: vault:capforest:segmentWriteKey
